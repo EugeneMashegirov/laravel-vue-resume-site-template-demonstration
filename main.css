@@ -228,7 +228,6 @@ body {
 
 .count-box {
     padding: 15px;
-    width: 100%;
 }
 
 .count-box i {
@@ -400,14 +399,15 @@ main section {
     left: 0;
 }
 
-.reviews {
+/* .reviews {
     display: flex;
     flex-direction: row;
-}
+} */
 .reviews .review-item {
     box-sizing: content-box;
     text-align: center;
     min-height: 320px;
+    margin-bottom: 20px;
 }
 .reviews .review-item .review-img {
     width: 90px;
@@ -471,7 +471,9 @@ main section {
 }
 
 .home-section {
-    background: url("./img/background.jpg") no-repeat 100% 100%;
+    background-image: url("/img/background.jpg");
+    background-repeat: no-repeat;
+    background-position: 100%;
     background-size: cover;
     background-attachment: fixed;
 }
