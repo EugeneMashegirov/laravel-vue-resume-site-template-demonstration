@@ -471,11 +471,7 @@ main section {
 }
 
 .home-section {
-    background-image: url("/img/background.jpg");
-    background-repeat: no-repeat;
-    background-position: 100%;
-    background-size: cover;
-    background-attachment: fixed;
+    background: url("/img/background.jpg") center center cover no-repeat fixed;
 }
 
 .minh-100vh {
