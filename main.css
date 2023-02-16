@@ -471,7 +471,7 @@ main section {
 }
 
 .home-section {
-    background: url("./img/background.jpg") center center cover no-repeat fixed;
+    background: url("img/background.jpg") center center cover no-repeat fixed;
 }
 
 .minh-100vh {
